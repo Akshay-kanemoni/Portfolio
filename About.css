@@ -1,0 +1,113 @@
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(45deg, rgb(144, 144, 211), rgb(168, 219, 168));
+}
+
+.title {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    /* justify-content: space-between; */
+
+    list-style: none;
+}
+
+.navbar {
+    width: 600px;
+}
+
+.navbar li:hover {
+    background: linear-gradient(45deg,rgb(153, 231, 248),rgb(203, 238, 203));
+    color:black;
+
+}
+
+.navbar li {
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+
+.Akshay img {
+    width: 570px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.Akshay_main {
+    display: flex;
+    width: 100%;
+}
+
+.Akshay_info {
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.name{
+    font-size: 30px;
+}
+.Akshay_info li{
+    font-size: 23px;
+}
+.logo{
+    display: flex;
+    width: 70px;
+    height: 40px;
+}
+.space{
+    margin-left: 20px;
+}
+@media(max-width:768px) {
+    .main {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .title {
+        font-size: 10px;
+    }
+
+    .navbar ul {
+        font-size: 10px;
+    }
+
+    .navbar li {
+        width: 60px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .Akshay img{
+        width:370px;
+        height: 250px;
+        margin-left: 8px;
+    }
+    .Akshay_main {
+        display: block;
+        width: 100%;
+    }
+    .Akshay_info{
+        margin-top: 0px; 
+    }
+    .Akshay_info li{
+        font-size: 13px;
+        margin-top: 0px;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .logo{
+        width: 50px;
+        height: 27px;
+    }
+    .space{
+        margin-left: 10px;
+    }
+   
+}
